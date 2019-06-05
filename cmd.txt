@@ -1,0 +1,179 @@
+cat /etc/os-release
+uname
+uname -r
+echo $PATH
+which date
+which reboot(#path)
+PATH=/root ---> Set path to root
+
+date  >ok.txt(File redirection,> overwrite)
+ls
+cat  ok.txt
+For Exa : >hello.txt  ----> it creates file
+>  (overwrite)
+>> (Append)
+
+1.file transfer
+..To store output we use >file_name.txt
+..not overwrite and show previous and current data(>>file_name.txt)
+
+#to check exist code we use echo $?
+If 0 show the code is exit
+If random no. shows the code is not exist
+
+&> overwrite
+&>> append
+
+wc -l filename_txt   ---> To count the total no. of lines in file
+wc -w file_name.txt  ---> To count total no. of words
+wc -c file_name.txt  ---> To count total no. of characters
+
+grep -w hello file_name.txt ---> To match pattern
+grep -iw -v hello file_name.txt---> To ignore the line which contain hello word nd print other lines which does not
+
+pipe command
+
+dnswatch ---> to checl blacklist ip
+
+nc -->network connect
+
+
+
+--------------------------------------Python----------------------------------------------------
+
+Code management---> SCM/VCS  // SCM:Source code management
+                             // VCS:Version Control system
+
+
+SCM Schemes : 1. SVN
+              2. GIT(Github)
+              3.Bit Bucket(only runs on system level)
+
+--------------------------------------GITHUB---------------------------------------------------
+        
+  login---> Initializatio repo ---> Init(Piblic/private)
+  
+
+  Subprocess in python( to interact with os software by string)
+
+ Search in google -----> http://www.google.com/search?q=hello
+                  
+    git add day3.py
+    git commit -m "day 3 with if and else"
+    git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
