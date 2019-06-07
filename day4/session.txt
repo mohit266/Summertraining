@@ -1,0 +1,27 @@
+-----------------------------------------Cloud Computing-------------------------------------------
+
+
+AWS : Amazon web service  -----> Mumbai(Region)
+
+OS -->  1 Hardware
+        2 ISO image ---> .ami(amazon machine image) it is used to replace iso image
+
+              CLOUD                                 |                       PHYSICAL
+                                                    |
+  ECU(Elastic container unit) Replace cpu and ram   |      RAM and CPU 
+  EBS(Elastic Block storage) Replace  hdd           |      HDD
+  AMI(Amazon machine image) Replace ISO/CD/DVD      |      ISO/CD/DVD 
+  Autoset (username & password)                     |      username & password
+  RDP(remote desktop protocol) it is used to        |
+   access windows                                   |
+  SSH(Secure shell) used to access linux            |
+  EC2(Elastic compute cloud)
+
+
+
+Linux: 1 useradd---> To add new user
+       2 userdel---->To remove user
+       3 passwd  username---> to set password for the user
+ 
+ubuntu: 1 adduser
+
