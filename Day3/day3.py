@@ -4,8 +4,8 @@ import  webbrowser
 import  time
 import  subprocess
 import os
-import re
-import linkGrabber
+import youtube
+import search
 option='''
 Press  1  to  start  your  vlc  media player :
 Press  2  to  play your fav song in youtube :  
@@ -35,18 +35,16 @@ elif choice == '6'  :
     exe = 'reboot'
     os.system(exe)
 
-elif choice == '2' :
+elif choice == '2' : 
     Data=input("type your search :--->")
+    url=[]
+    for i in search(Data,stop=5):
+        print(i)
+        time.sleep(1)
+        url.appent(i)
+    
+    #webbrowser.open_new("https://www.youtube.com/results?search_query="+Data)
 
-    webbrowser.open_new("https://www.youtube.com/results?search_query="+Data)
-
-elif choice == "4"  :
-[link] = linkGrabber.Links("http://www.google.com")
-link.find()
-# limit the number of "a" tags to 5
-link.find(limit=5)
-# filter the "a" tag href attribute
-link.find(href=re.compile("plus.google.com"))
 
 elif  choice  ==  '3' :
     data=input("type your search :--->  ")
