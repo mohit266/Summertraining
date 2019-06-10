@@ -1,0 +1,15 @@
+cd /etc/yum.repo.d/
+
+
+
+
+[ad]
+baseurl=http://13.234.66.67/summer19/python3
+gpgcheck=0
+
+
+
+[iad]
+
+baseurl=http://13.234.66.67/summer19/rhel75
+gpgcheck=0
