@@ -1,0 +1,53 @@
+we combine 2 partition into one and mount with the physical hdd
+
+step 1: Create 2 volumes for aws(instances) nd attach these volumes with instances
+
+step2 : Then install lvm2(yum install lvm2 ---pvcreate)
+
+step3 : pvcreate /dev/xvdf  /dev/xvdg(name of partition)
+       -----physical volume successfully created----
+
+step4 : vgcreate anyname(myvirtual) /dev/xvdf /dev/xvdg
+
+step5 : lvcreate --name part1 --size 400M myvirtual
+
+step6 : mkdir /mnt/google/
+
+step7 :  mount /dev/mapper/myvirtual-part1 /mnt/google
+
+step8 : mkfs.xfs  /dev/mapper/myvirtual-part1
+
+step9 : mkdir /mnt/google
+
+step10: mount /dev/mapper/myvirtual-part1 /mnt/google
+
+step11: vim /etc/fstab(write the partition name as shown in fdisk -l,lsblk,df -hT)
+
+step12: umount /dev/mapper/myvirtual-part1 /mnt/google(dir name)
+
+step13: vim /etc/fstab(after unmount we remove the partition name)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[docker]
+baseurl=http://13.234.66.67/summer19/kubernetes
+gpgcheck=0
+
