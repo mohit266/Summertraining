@@ -4,8 +4,7 @@ import  webbrowser
 import  time
 import  subprocess
 import os
-import youtube
-import search
+from YouTube import search
 option='''
 Press  1  to  start  your  vlc  media player :
 Press  2  to  play your fav song in youtube :  
@@ -35,15 +34,12 @@ elif choice == '6'  :
     exe = 'reboot'
     os.system(exe)
 
-elif choice == '2' : 
-    Data=input("type your search :--->")
-    url=[]
-    for i in search(Data,stop=5):
-        print(i)
-        time.sleep(1)
-        url.appent(i)
-    
-    #webbrowser.open_new("https://www.youtube.com/results?search_query="+Data)
+elif choice == '2' :
+    web=input("type your search :--->")
+	for i in search(web,stop=3):
+	print(web)
+	time.sleep(1) 
+  #  webbrowser.open_new("https://www.youtube.com/results?search_query="+Data)
 
 
 elif  choice  ==  '3' :
