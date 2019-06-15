@@ -1,0 +1,503 @@
+    1  exit
+    2  id -u
+    3  exit
+    4  yum install python.pip
+    5  yum install python-pip
+    6  rhui-lb
+    7  yum install rhui-lb
+    8  vim
+    9  createrepo -v /var/www/html/rhel6/repo_name/ -g comps.xml
+   10  vim /etc/yum.repos.d/moh.repo
+   11  yum install python-pip
+   12  yum install python3-pip
+   13  yum install python3*
+   14  python
+   15  yum repolist
+   16  cat repo.moh
+   17  cat /etc/crontab
+   18  20 16 7 6 5 mkdir /home/ec2-user/Desktop/kk
+   19  exit
+   20  cd /etc/yum.repos.d/
+   21  vim Mohit.repo
+   22  yum update
+   23  yum install python3
+   24  yum install python
+   25  yum install jupyter-notebook
+   26  yum install python.pip
+   27  clear
+   28  yum install python3-pip
+   29  yum install python-pip
+   30  ls
+   31  rm moh.repo
+   32  yum update
+   33  vim Mohit.repo
+   34  yum python3*
+   35  yum install python3*
+   36  rpm -p python
+   37  rpm -p python3
+   38  rpm -p python*
+   39  rpm -l
+   40  rpm -l python*
+   41  clear
+   42  yum install python*-pip
+   43  yum install jupyter
+   44  pip3 install
+   45  pip3 install --upgradepip
+   46  pip3 install --upgradepip
+   47  pip3 install --upgrade pip
+   48  pip3 install jupyter
+   49  pip install jupyter
+   50  pip3 install jupyter
+   51  exit
+   52  fdisk -l
+   53  fdisk /dev/xvdf
+   54  fdisk /etc/xvdf
+   55  fdisk /dev/xvdf
+   56  fdisk /dev/xvdf
+   57  fdisk /dev/xvdf/
+   58  fdisk /dev/xvdf
+   59  mkfs.
+   60  fdisk /dev/xvdf
+   61  mkdir /mn/mypart
+   62  mkdir /mnt/mypart
+   63  mount /dev/xvdf1 /mnt/mypart
+   64  mount /dev/xvdf /mnt/mypart
+   65  df
+   66  mkdir /mnt/mypart
+   67  ls
+   68  cd /mnt/
+   69  ls
+   70  mount /dev/xvdf /mnt/mypart
+   71  mount /dev/xvdf1 /mnt/mypart
+   72  mount /dev/xvda2 /mnt/mypart
+   73  df
+   74  fdisk /dev/
+   75  fdisk /dev
+   76  fdisk ls
+   77  cd
+   78  fdisk ls
+   79  fdisk 
+   80  fdisk  -l
+   81  cd /mnt
+   82  ls
+   83  rmdir mypart
+   84  ls
+   85  cd /mypart/
+   86  cd mypart/
+   87  mkdir hello{1..5}
+   88  ls
+   89  cd
+   90  vim /etc/fstab
+   91  mount -a
+   92  mount /dev/xvdf1 /mnt/mypart
+   93  mount  /dev/xvdf1 /mnt/mypart
+   94  moun /dev/xvdf1 /mnt/mypart
+   95  mount /dev/xvdf1 /mnt/mypart
+   96  fdisk
+   97  fdish -ls
+   98  fdish -l
+   99  fdisk /dev/xvdf
+  100  fdisk /dev/xvdf
+  101  fdisk /dev/xvdf
+  102  mkdir /mnt/mypart
+  103  mount /dev/xvdf1 mnt/mypart
+  104  mount /dev/xvdf1 /mnt/mypart
+  105  echo $?
+  106  ls -ld
+  107  sudo yum install pmount
+  108  yum install httpd
+  109  clear
+  110  rpm -q httpd
+  111  rpm -qc httpd]
+  112  1
+  113  clear
+  114  pip3 install googlesearch
+  115  pip3 install google search
+  116  pip
+  117  pip3
+  118  exit
+  119  fdisk -l
+  120  pvcreate /dev/xvdf /dev/xvdg
+  121  yum install pvcreate
+  122  cd/etc/yum.repo.d/
+  123  cd /etc/yum.repo.d/
+  124  cd /etc/yum.repos.d/
+  125  vim mohit.repo
+  126  source mohit.repo
+  127  yum update
+  128  vim mohit.repo
+  129  yum update
+  130  python3
+  131  history
+  132  fdisk -l
+  133  fdisk
+  134  fdisk -l
+  135  yum install lvm2
+  136  pvcreate /dev/xvdh /dev/xvdg
+  137  pvcreate /dev/xvdf
+  138  vgdisplay myvirtual
+  139  vgcreate myvirtual /dev/xvdf /dev/xvdg
+  140  vgdisplay myvirtual
+  141  lvcreate --name part1 --size 400M myvirtual
+  142  fdisk -l
+  143  lvdisplay
+  144  mkfs.xfs  /dev/mapper/myvirtual-part1
+  145  mkdir /mnt/google/
+  146  mount /dev/mapper/myvirtual-part1/mnt/google
+  147  mount /dev/mapper/myvirtual-part1 /mnt/google
+  148  vim /etc/fstab
+  149  mount -a
+  150  fdisk -l
+  151  whoami
+  152  useradd adhoc
+  153  passwd adhoc
+  154  vim  /etc/ssh/sshd_confighistory
+  155  history
+  156  vim  /etc/ssh/sshd_confighistory
+  157  vim  /etc/ssh/sshd_config
+  158  systemctl resstart sshd
+  159  systemctl restart sshd
+  160  ssh adhoc@35.154.29.63
+  161  clear
+  162  cd
+  163  history
+  164  clear
+  165  cd /etc/yum.repos.d
+  166  mohit.repo
+  167  vim mohit.repo
+  168  yum install docker
+  169  unmount /dev/mapper/myvirtual-part1
+  170  umount /dev/mapper/myvirtual-part1
+  171  mount /dev/mapper/myvirtual-part1/mnt/google
+  172    vim /etc/fstab
+  173  df -hT
+  174  fdisk -l
+  175  history
+  176  history
+  177  vim /etc/fstab
+  178  umount /dev/mapper/myvirtual-part1 /mnt/google
+  179  vim /etc/fstab
+  180  sdblk
+  181  history
+  182  exit
+  183  slblk
+  184  lsblk
+  185  fdisk -l
+  186  lsblk
+  187  history
+  188  cd/etc/yum.repo.d/
+  189  cd /etc/yum.repo.d/
+  190  cd /etc/yum.repos.d/
+  191  vim mohit.repo
+  192  cd
+  193  pvcreate /dev/xvdf /dev/xvdg
+  194  vgdisplay myvirtual
+  195  vgcreate myvir /dev/xvdf /dev/xvdg
+  196  lvcreate --name part1 --size 400M myvir
+  197  lsblk
+  198   mount /dev/mapper/myvirtual-part1 /mnt/google
+  199  cd /mnt/google
+  200   mount /dev/mapper/myvirtual-part1 /mnt/google
+  201   mount /dev/mapper/myvir-part1 /mnt/google
+  202  ls
+  203  lsblk
+  204  lvdisplay
+  205   mount /dev/mapper/myvir-part1 /mnt/google
+  206  cat /etc/fstab
+  207  fdisk -l
+  208  mkfs.xfs  /dev/mapper/myvirtual-part1
+  209  mkfs.xfs  /dev/mapper/myvir-part1
+  210  mkdir /mnt/google
+  211  mount /dev/mapper/myvir-part1 /mnt/google
+  212  df -hT
+  213  vim /etc/fstab
+  214  df -hT
+  215  umount /dev/mapper/myvir-part1 /mnt/google
+  216  cd
+  217  umount /dev/mapper/myvir-part1 /mnt/google
+  218  umount /dev/mapper/myvir-part1
+  219  vim /etc/fstab
+  220  fdisk -l
+  221  mkfs.xfs  /dev/mapper/myvir-part1
+  222  mkfs.xfs -f /dev/mapper/myvir-part1
+  223  fdisk -l
+  224  clear
+  225  lsblk
+  226  fdisk /dev/xvdf /dev/xvdg
+  227  fdisk -l /dev/xvdf /dev/xvdg
+  228  fdisk -s /dev/xvdf /dev/xvdg
+  229  exit
+  230  history
+  231  hstory
+  232  history
+  233  systemctl status docker
+  234  systemctl enable docker
+  235  systemctl start docker
+  236  docker version
+  237  docker search java
+  238  docker search hadoop
+  239  docker pull python
+  240  docker pull hello-world
+  241  docker pull fedora
+  242  docker images
+  243  docker run -it fedora date
+  244  docker ps-a
+  245  docker ps -a
+  246  clear
+  247  history
+  248  clear
+  249  docker run -itpython3
+  250  docker run -it python3
+  251  docker run -it python
+  252  clear
+  253  docker run -it fedora bash
+  254  ls /l
+  255  ls
+  256  ls   /
+  257  clear
+  258  iwconfig
+  259  docker ps-a
+  260  docker ps -a
+  261  docker start eager_yalow
+  262  docker ps -a
+  263  docker ps
+  264  docker attach eager
+  265  docker attach eager_yalow
+  266  rpm -ivh http://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/s/shellinabox-2.20-5.el7.x86_64.rpm 
+  267  systemctl start shellinaboxd
+  268  systemctl enable shellinaboxd
+  269  setenforce 0
+  270  vim /etc/selinux/config
+  271  passwd ec2-user
+  272  history
+  273  docker run -it fedora python
+  274  clear
+  275  history
+  276  docker run -it python
+  277  doker ps
+  278  exit
+  279  docker search hello-world
+  280  docker pull hello-world
+  281  docker images
+  282  docker run hello-world
+  283  docker search fedora
+  284  docker ps
+  285  docker stop eager_yalow
+  286  docker ps
+  287  docker run-it fedora bash
+  288  docker run -it fedora bash
+  289  docker ps
+  290  docker ps -aq
+  291  docker images
+  292  docker rmi hello-world
+  293  docker rmi -f hello-world
+  294  docker pull hello-world
+  295  docker images
+  296  docker ps -a
+  297  docker rm cocky_hoover
+  298  docker ps -a
+  299  docker ps
+  300  docker ps -a
+  301  docker images
+  302  docker ps
+  303  clear
+  304  docker -it run --Mohit fedaro bash 
+  305  docker  -it run --Mohit fedaro bash 
+  306  docker  run -it  --Mohit fedaro bash 
+  307  docker  run -it  --name Mohit fedora bash 
+  308  docker ps
+  309  docker ps -a
+  310  docker rm Mohit
+  311  docker ps -a
+  312  docker rm -r
+  313  docker rm r
+  314  docker ps -qa
+  315  docker rm $(docker ps -qa)
+  316  docker ps -a
+  317  docker pull centos:7
+  318  docker run -it centos:7 ping
+  319  docker run -it centos:7 ping 8.8.8.8
+  320  docker ps
+  321  docker ps -a
+  322  docker start nostalgic_leavitt
+  323  docker exec -it nostalgic_leavitt
+  324  docker stop -it nostalgic_leavitt
+  325  docker stop nostalgic_leavitt
+  326  docker start nostalgic_leavitt
+  327  docker stop nostalgic_leavitt
+  328  history
+  329  clear
+  330  docker tag centos:7 centos:mohit
+  331  docker ps
+  332  docker images
+  333  docker rm 9f38484d220f
+  334  docker rmi 9f38484d220f
+  335  docker rmi -f 9f38484d220f
+  336  docker images
+  337  docker tag centos:7 centos:mohit
+  338  docker pull centos:7
+  339  docker tag centos:7 centos:mohit
+  340  docker images
+  341  docker rmi mohit
+  342  docker images
+  343  docker ps
+  344  docker ip mohit
+  345  docker ps -a
+  346  docker inspect nostalgic_leavitt
+  347  docker inspect nostalgic_leavitt | grep -i ipadd
+  348  docker start nostalgic_leavitt
+  349  docker inspect nostalgic_leavitt | grep -i ipadd
+  350  yum
+  351  history
+  352  historyclear
+  353  clear
+  354  docker search centos:7
+  355  docker images
+  356  docker rmi 9f38484d220f
+  357  docker rmi -f  9f38484d220f
+  358  docker stop centos:mohit
+  359  docker ps -a
+  360  history
+  361  docker ps wq
+  362  docker ps qa
+  363  docker ps -qa
+  364  docker rm $(docker ps -qa)
+  365  docker rm -f $(docker ps -qa)
+  366  docker ps -qa
+  367  docker images
+  368  docker rmi -f 9f38484d220f
+  369  docker pull python3
+  370  docker tag python3 python3:mohit
+  371  docker images
+  372  docker tag python python:mohit
+  373  docker images
+  374  docker rmi -f 34a518642c76
+  375  docker images
+  376  history
+  377  docker pull python
+  378  history
+  379  clear
+  380  git clone https://github.com/mohit266/python-problems.git
+  381  docker pull git
+  382  docker pull github
+  383  docker run -it -- name mohit fedora bash 
+  384  docker run -it --name mohit fedora bash 
+  385  docker start mohit
+  386  docker attach mohit
+  387  exit
+  388  docker ps -a
+  389  docker start mohit 
+  390  ls
+  391  docker run mohit
+  392  docker start -it mohit
+  393  history
+  394  docker startmohit
+  395  docker start mohit
+  396  cd
+  397  docker attach -it mohit
+  398  docker attach  mohit
+  399  docker run -itd --name web1 -p 123
+  400  docker ps
+  401  docker images
+  402  history
+  403  clear
+  404  cd ..
+  405  ls
+  406  cd /myweb
+  407  history
+  408  clear
+  409  docker images
+  410  cd ..
+  411  ls
+  412  cd /myweb
+  413  ls
+  414  rm dockerfile
+  415  vi Dockerfile
+  416  docker ps -a
+  417  history
+  418  cd ..
+  419  history
+  420  exit
+  421  docker images
+  422  mkdir /myweb
+  423  cd /myweb
+  424  ls
+  425  vim index.html
+  426  cat index.html
+  427  vim Dockerfile 
+  428  cd ..
+  429  cd myweb/
+  430  vi Dockerfile
+  431  cd
+  432  exit
+  433  docker images
+  434  ls
+  435  cd ?web
+  436  cd ?myweb
+  437  clear
+  438  cd myweb
+  439  clear
+  440  cd
+  441  cd ..
+  442  ls
+  443  cd /myweb/
+  444  ls
+  445  vim Dockerfile
+  446  docker build -t "adhocweb
+  447  docker build -t "adhocweb" /myweb
+  448  docker images
+  449  vim dockerfile
+  450  ls
+  451  vim Dockerfile
+  452  doker run -it fedora date
+  453  docker run -it fedora date
+  454  docker run -it adhocweb date
+  455  vim Dockerfile
+  456  docker run -itd --name cc fedora bash
+  457  docker ps
+  458  docker run -itd --name cc1 adhocweb
+  459  docker ps
+  460  docker stop cc1
+  461  docker ps -a
+  462  docker rm $(docker ps -aq)
+  463  docker ps -a
+  464  docker ps
+  465  vi Dockerfile
+  466  yum install ansible
+  467  cd /etc/yum.repos.d
+  468  vim mohit.repo
+  469  yum install ansible
+  470  ls
+  471  vim Mohit.repo
+  472  rm Mohit.repo
+  473  ls
+  474  clear
+  475  cd
+  476  cd ..
+  477  ls
+  478  cd /~
+  479  clear
+  480  cd /etc/ansible
+  481  ls
+  482  vi /etc/ansible/hosts
+  483  cd /etc/yum.repos.d
+  484  ls
+  485  vi mohit.repo
+  486  vi /etc/ansible/hosts
+  487  cd
+  488  cd etc/ansible/
+  489  cd etc/ansible
+  490  /cd etc/ansible
+  491  cd /etc/ansible/
+  492  >hosts
+  493  vi hosts
+  494  ansible a -u ec2-user -m ping -k
+  495  MOHITMOHITMOHITMOHITMOHITMOHITMOHIMOHIT
+  496  google
+  497  clear
+  498  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  499  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  500  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  501  clear
+  502  exit
+  503  history &>h2.txt
