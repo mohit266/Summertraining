@@ -1,0 +1,148 @@
+    1  sudo -i
+    2  logout
+    3  whoami
+    4  id -u
+    5  sudo -i
+    6  exit
+    7  clear
+    8  sudo yum install vim
+    9  vim /etc/yum.repo.d/
+   10  sudo yum install python.pip
+   11   yum install python.pip
+   12  sudo -i
+   13  cat /etc/crontab
+   14  20 16 7 6 5 mkdir /home/ec2-user/Desktop/kk
+   15  20 16 7 6 5 mkdir /kk
+   16  20 16 7 6 5 mkdir kk
+   17  which mkdir
+   18  crontab -e
+   19  watch date
+   20  crontab -e
+   21  watch date
+   22  crontab -e
+   23  ls -ld /kk
+   24  ls -ld kk/
+   25  cd Desktop
+   26  cd Desktop/
+   27  cd Desktop/kk
+   28  clear
+   29  whoami
+   30  lsblk
+   31  <<X
+   32  fdisk -l
+   33  fdisk --l
+   34  fdisk -l
+   35  sudo su
+   36  sudo su
+   37  fdisk -l /dev/xvdf
+   38  sudo su
+   39  rpm -q httpd
+   40  rpm -q vlc
+   41  rpm -q firefox
+   42  rpm -q bash
+   43  yum install httpd
+   44  sudo su
+   45  sudo su
+   46  pip3 install jupyter
+   47  sudo pip3 install jupyter 
+   48  pip3 install --upgrade pip
+   49  pip3 install jupyter --user
+   50  pip3
+   51  jupyter-notebook
+   52  history
+   53  jupyter-notebook
+   54  jupyter-notebook --no browser --ip=0.0.0.0 --port=8888 &
+   55  jupyter-notebook --no-browser --ip=0.0.0.0 --port=8888 &
+   56  jupyter-notebook --no browser --ip=0.0.0.0 --port=8888 &
+   57  jupyter-notebook --no-browser --ip=0.0.0.0 --port=8888 &
+   58  clear
+   59  sudo su
+   60  pi
+   61  pip
+   62  clear
+   63  pip install search
+   64  pip install google search
+   65  pip install google search --user
+   66  pip3 install google search --user
+   67  pip3 install google search
+   68  pip3 install beautifulsoup4
+   69  sudo pip3 install beautifulsoup4 --user
+   70  pip3 install beautifulsoup4 --user
+   71  pip3 install google search
+   72  pip3 install google
+   73  pip3 install google --user
+   74  pip3 show google
+   75  pip3 install search
+   76  pip3 install google  search
+   77  pip3 install google search
+   78  clear
+   79  touch url.py
+   80  vim url.py
+   81  python3
+   82  python3 url.py
+   83  yum whatprovides  */pvcreate
+   84  clear
+   85  fdisk --l
+   86  lsblk
+   87  fdisk -l
+   88  sudo su
+   89  yum install lvm2 -y
+   90  clear
+   91  cd /etc/yum.repo.d/
+   92  sudo su
+   93  clear
+   94  sudo -i
+   95  clear
+   96  sudo -i
+   97  fdisk -l
+   98  sudo -i
+   99  history
+  100  sudo -i
+  101  history
+  102  sudo -i
+  103  exit
+  104  sudo -i
+  105  clear
+  106  rpm -q docker
+  107  sudo -i
+  108  cler
+  109  clear
+  110  sudo -i
+  111  history
+  112  sudo -i
+  113  exit
+  114  clear
+  115  docker search hello-world
+  116  sudo -i
+  117  clar
+  118  clear
+  119  docker
+  120  docker search centosa
+  121  docker search cento:7
+  122  sudo -i
+  123  docker start mohit
+  124  docker ps
+  125  sudo -i
+  126  exit
+  127  clear
+  128  docker images
+  129  sudo -i
+  130  clear
+  131  sudo -i
+  132  history
+  133  clear
+  134  sudo -i
+  135  exit
+  136  sudo --i
+  137  sudo -i
+  138  cd /etc/yum.repos.d/
+  139  ls
+  140  vim mohit.repo
+  141  vim Mohit.repo
+  142  vim mohit.repo
+  143  sudo -i
+  144  exit
+  145  clear
+  146  ls
+  147  history
+  148  history &>hist.txt
