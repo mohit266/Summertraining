@@ -1,89 +1,89 @@
-DAY 10
-Notes ~
+    DAY 10
+    Notes ~
 
-    repl.it ~ > a website where one can work over any platform , and over any programming language
+  *  repl.it ~ > a website where one can work over any platform , and over any programming language
 
-    Virtual Box reads resource information from OS
+  *  Virtual Box reads resource information from OS
 
-    Virtual Box creates a free Hardware from the resources available free in your system
+  *  Virtual Box creates a free Hardware from the resources available free in your system
 
-    time required to create an OS using docker maximum takes 1.2 sec
+  *  time required to create an OS using docker maximum takes 1.2 sec
 
-    PAS - > Platform as a Service
+  *  PAS - > Platform as a Service
 
-    every 3 years a new Redhat OS is launched
+  *  every 3 years a new Redhat OS is launched
 
-    Backend project of redhat is Fedora that is fedora is developed for 3 years which after completion is produced with name Redhat
+  *  Backend project of redhat is Fedora that is fedora is developed for 3 years which after completion is produced with name Redhat
 
-    Fedora is more powerful then Redhat
+  *  Fedora is more powerful then Redhat
 
-    in a terminal , by default bash is always running
+  *  in a terminal , by default bash is always running
 
-    To generate qr code in shell we have a package called qrencode
+  *  To generate qr code in shell we have a package called qrencode
 
-qrencode -s 32x32 -o akshayimage.png
-http://www.akshaybengani.github.io
+#qrencode -s 32x32 -o akshayimage.png
+#http://www.akshaybengani.github.io
 
 LINUX Commands ~
 
-    $ tac file-name.txt # reverse the order of reading from bottom to top
-    $ rev file-name.txt # reverse the words in file reading from top to bottom
-    $ qrencode -s 16x16 -o file-name.png web-site-link # Creates a QR code for the websites, -o shows output to save
-    $ systemctl enable docker # start the docker each time OS
-    $ systemctl start docker # initiate docker
+  *  $ tac file-name.txt # reverse the order of reading from bottom to top
+  *  $ rev file-name.txt # reverse the words in file reading from top to bottom
+  *  $ qrencode -s 16x16 -o file-name.png web-site-link # Creates a QR code for the websites, -o shows output to save
+  *  $ systemctl enable docker # start the docker each time OS
+  *  $ systemctl start docker # initiate docker
 
-Docker
+Docker:
 
-    Provides Environment for different OS and technologies
-    Docker uses kernel of base OS to develop more OS images for the use.
+  *  Provides Environment for different OS and technologies
+  *  Docker uses kernel of base OS to develop more OS images for the use.
 
-           [ Docker]
-         [   RHEL    ]    
-        [   Hardware  ]
+   --->        [ Docker]
+   --->      [   RHEL    ]    
+   --->     [   Hardware  ]
 
-    it runs an OS for some dedicated purpose like running only Python that is running an micro Service
-    Docker is like a ship with containers of OS
-    the base OS doesn't know or have no information about the OS installed in containers.
-    Each container has its own IP, MAC to connect with outside world.
-    It is a technology provider
-    it works on GO language
-    search OS iso in hub.docker.com or run Command
+  *  it runs an OS for some dedicated purpose like running only Python that is running an micro Service
+  *  Docker is like a ship with containers of OS
+  *  the base OS doesn't know or have no information about the OS installed in containers.
+  *  Each container has its own IP, MAC to connect with outside world.
+  *  It is a technology provider
+  *  it works on GO language
+  *  search OS iso in hub.docker.com or run Command
 
 $ docker search technology-name
 
-    to install image from docker use
+  *  to install image from docker use
 
 $ docker pull image-name
 
-    to check installed images
+  *  to check installed images
 
 $ docker images
 
-    to run a docker image
+  *  to run a docker image
 
 $ docker run -it fedora
 
 Working
 
-    in backend , it talks to the kernel of based OS and creates a new container with OS of given image which contains all those micro services that you need to work with
-    after work completion , the container shutdowns itself
-    to check for shutdown container run Command
+  *  in backend , it talks to the kernel of based OS and creates a new container with OS of given image which contains all those micro services that you need to work with
+  *  after work completion , the container shutdowns itself
+  *  to check for shutdown container run Command
 
 $ docker ps -a
 
-    Docker is an application oriented system - > as soon as the application for which container was created is closed the container also shutdowns itself
-    Single process oriented system - > no more then one process can run on this container
+  *  Docker is an application oriented system - > as soon as the application for which container was created is closed the container also shutdowns itself
+  *  Single process oriented system - > no more then one process can run on this container
 
 Install Shellinabox
 
-    It is a program which allows us to use shell in our browser insteed of a ssh or a putty.
+  *  It is a program which allows us to use shell in our browser insteed of a ssh or a putty.
 
 Docker Basics
 
-    To install a OS in docker we need a docker-image.
-    You can explore docker-images online on https://www.hub.docker.com
-    To search a docker image we have a command docker search java
-    To download a image from docker liberary we use a command docker pull
+  *  To install a OS in docker we need a docker-image.
+  *  You can explore docker-images online on https://www.hub.docker.com
+  *  To search a docker image we have a command docker search java
+  *  To download a image from docker liberary we use a command docker pull
 
 docker pull hello-world
 docker pull python
@@ -110,22 +110,22 @@ docker.io/hello-world   latest              fce289e99eb9        5 months ago    
 
 docker run -it fedora date
 
-    i stands here for interactive
-    t stands here for terminal
-    date stands here for the application program date.
-    To know how many docker containers exist in current time either in shutdown or running we have a command called docker ps -a
-    Docker is a process maintainer it can run that single process only.
-    If we want container not to stop then we can open a program bash.
+  *  i stands here for interactive
+  *  t stands here for terminal
+  *  date stands here for the application program date.
+  *  To know how many docker containers exist in current time either in shutdown or running we have a command called docker ps -a
+  *  Docker is a process maintainer it can run that single process only.
+  *  If we want container not to stop then we can open a program bash.
 
 [ec2-user@ip-172-31-9-238 /]$ sudo docker run -it fedora bash
 [root@ef3271f6d299 /]#
 
-    To start an existing container we have a command docker start with the container name and you can get the container name using docker ps -a
+ #   To start an existing container we have a command docker start with the container name and you can get the container name using docker ps -a
 
 docker start blissful_blackwell
 
-    To view the running containers we have a command docker ps this will give list of running containers.
-    To use the container we have already created or shutdown container we have a command called docker attach CONTAINER_NAME
+ #  To view the running containers we have a command docker ps this will give list of running containers.
+ #  To use the container we have already created or shutdown container we have a command called docker attach CONTAINER_NAME
 
 docker start gracious_borg
 docker attach gracious_borg
